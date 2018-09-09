@@ -1,0 +1,23 @@
+{
+  "name": "jwt-server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Nicholas Marcaccini Augusto ",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^3.0.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "mongoose": "^5.2.13"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "@types/mongoose": "^5.2.11",
+    "nodemon": "^1.18.4"
+  },
+  "scripts": {
+    "start": "nodemon index.js"
+  }
+}
